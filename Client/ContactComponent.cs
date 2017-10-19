@@ -3,9 +3,9 @@ using BibaViewEngine.Compiler;
 
 namespace BibaViewEngine.Client
 {
-    public class AppComponent : Component
+    public class ContactComponent : Component
     {
-        public AppComponent(BibaCompiler bibaCompiler)
+        public ContactComponent(BibaCompiler bibaCompiler)
             : base(bibaCompiler)
         {
         }
