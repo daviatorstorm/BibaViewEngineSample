@@ -1,8 +1,14 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 
-namespace ViewEngineEnvironment
+namespace BibaViewEngineTutorial
 {
     public class Program
     {
@@ -12,10 +18,7 @@ namespace ViewEngineEnvironment
         }
 
         public static IWebHost BuildWebHost(string[] args) =>
-            new WebHostBuilder()
-                .UseKestrel(opts => opts.AddServerHeader = false)
-                .UseContentRoot(Directory.GetCurrentDirectory())
-                .UseIISIntegration()
+            WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
                 .Build();
     }
