@@ -1,0 +1,8 @@
+{
+  "include": ["wwwroot"],
+  "compilerOptions": {
+    "module": "none",
+    "outFile": "wwwroot/build.js",
+    "experimentalDecorators": true
+  }
+}

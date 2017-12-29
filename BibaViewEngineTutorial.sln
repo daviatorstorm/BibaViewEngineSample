@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibaViewEngineTutorial", "BibaViewEngineTutorial.csproj", "{A8FD0B0C-0788-4AD4-9D69-E17C045AB314}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibaViewEngine", "..\BibaViewEngine\BibaViewEngine.csproj", "{CA08423B-1CC5-4052-B8D3-8D95697B2230}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8FD0B0C-0788-4AD4-9D69-E17C045AB314}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8FD0B0C-0788-4AD4-9D69-E17C045AB314}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8FD0B0C-0788-4AD4-9D69-E17C045AB314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA08423B-1CC5-4052-B8D3-8D95697B2230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA08423B-1CC5-4052-B8D3-8D95697B2230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA08423B-1CC5-4052-B8D3-8D95697B2230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA08423B-1CC5-4052-B8D3-8D95697B2230}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
