@@ -12,12 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <!--<PackageReference Include="BibaViewEngine" Version="0.0.6-beta-1.0.4" />-->
+    <PackageReference Include="BibaViewEngine" Version="0.0.6-beta-1.0.5" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BibaViewEngine\BibaViewEngine.csproj" />
+    <!--<ProjectReference Include="..\BibaViewEngine\BibaViewEngine.csproj" />-->
   </ItemGroup>
 
 </Project>
